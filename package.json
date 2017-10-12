@@ -21,10 +21,14 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "standard": "^10.0.3",
-    "styled-components": "^2.2.1"
+    "styled-components": "^2.2.1",
+    "timber": "^3.0.4"
   },
   "now": {
-    "alias": "next-go"
+    "alias": "next-go",
+    "env": {
+      "API_KEY_TIMER": ""
+    }
   },
   "standard": {
     "parser": "babel-eslint",
